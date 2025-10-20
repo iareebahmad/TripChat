@@ -128,3 +128,9 @@ if st.button("Generate & Send"):
             result = trip_agent.invoke(init_state)
         st.success("✅ Itinerary created and sent to your WhatsApp!")
         st.write(result['itinerary'])
+
+st.markdown("---")
+st.markdown(
+        '<p style="text-align:center;">Made with ❤️ by Areeb</p>',
+        unsafe_allow_html=True
+    )
