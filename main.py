@@ -119,7 +119,7 @@ st.title("TripChat")
 st.subheader("Your AI Travel Agent")
 
 query = st.text_input("Tell me about your trip:")
-phone = st.text_input("Your WhatsApp number (with country code: +YYXXXXXXXXXX):")
+phone = st.text_input("Your WhatsApp number (With Country Code: +YYXXXXXXXXXX):")
 
 if st.button("Generate & Send"):
     if query and phone:
